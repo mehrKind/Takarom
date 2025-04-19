@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    background: url("./assets/images/bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    padding: 20px;
+}
+
+@font-face {
+    font-family: 'poppins';
+    src: url("./assets/fonts/PoppinsLatin-Regular.ttf");
+}
+
+@font-face {
+    font-family: 'poppinsBold';
+    src: url("./assets/fonts/PoppinsLatin-Bold.ttf");
+}
+
+@font-face {
+    font-family: 'peydaBold';
+    src: url("./assets/fonts/PeydaFaNum-Bold.ttf");
+}
+
+@font-face {
+    font-family: 'peyda';
+    src: url("./assets/fonts/PeydaFaNum-Regular.ttf");
+}
+
+
+
+.poppins {
+    font-family: 'poppins';
+}
+.poppinsBold {
+    font-family: 'poppinsBold',;
+}
+.peydaBold {
+    font-family: 'peydaBold';
+}
+.peyda {
+    font-family: 'peyda', 'poppins';
+}
